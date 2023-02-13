@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>AI Generated Images</title>
+        <title>AI Generated Images by Semih</title>
         <meta property="og:image" content="https://msbabacan.tech/og.jpg" />
         <meta name="twitter:image" content="https://msbabacan.tech/og.jpg" />
       </Head>
