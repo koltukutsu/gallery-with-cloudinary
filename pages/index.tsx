@@ -65,14 +65,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               Well, there are crystal clearly endless
               possibilities in our new age ! */}
             </p>
-            <a
+            <Link
               className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
               href="https://msbabacan.tech/things#generated-images"
-              target="_blank"
-              rel="noreferrer"
+              // target="_blank"
+              // rel="noreferrer"
             >
               Turn Back
-            </a>
+            </Link>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
@@ -111,14 +111,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         >
           Midjourney
         </a>{" "}
-        <a
-          href="https://msbabacan.tech/things#generated-images"
+        <Link
+          href="https://msbabacan.tech/"
           target="_blank"
           rel="noreferrer"
           className="font-semibold hover:text-gray-400 underline"
         >
           by Semih
-        </a>
+        </Link>
       </footer>
     </>
   );
