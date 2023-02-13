@@ -110,6 +110,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           rel="noreferrer"
         >
           Midjourney
+        </a>{" "}
+        <a
+          href="https://msbabacan.tech/things#generated-images"
+          target="_blank"
+          rel="noreferrer"
+          className="font-semibold hover:text-gray-400 underline"
+        >
+          by Semih
         </a>
       </footer>
     </>
